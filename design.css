@@ -1,0 +1,8 @@
+body{
+    align-items: flex-start;
+    page-break-inside: auto;
+    margin-inline-end: 10%;
+}
+h1{
+    color: blueviolet;
+}

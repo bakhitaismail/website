@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   background-color: rgb(219, 175, 219);
+    
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-position: center;
+    height: 100%;
+  
+    
+
+
+}
+h1{
+    color: rgb(44, 12, 73);
+}
+h2{
+    text-align: left;
+    padding-left: 10%;
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: auto;
+}
+.logo{
+    color: rgb(36, 2, 36);
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 150%;
+    background-color: purple;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: ease-out;
+    
+}
+ul li a:hover{
+    color: beige;
+}
+.search a:hover {
+    width: 10%;
+    float: left;
+    margin-left: 90%;
+}
+.content{
+    height: auto;
+    color: black;
+    font-size: xx-large;
+    position: relative;
+    
+}
+.content .cn{
+    width: 10%;
+    height: 40%;
+    background: darkgrey;
+    border: none;
+    margin-bottom: 10px;
+    margin: auto;
+    font-size: x-large;
+    cursor: pointer;
+}
+.cn:hover{
+    background-color: aliceblue;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0));
+    position: absolute;
+    top: 60px;
+    left: 70%;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: gray;
+    
+}
+.body{
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+    
+}
